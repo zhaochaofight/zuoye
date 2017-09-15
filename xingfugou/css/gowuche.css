@@ -1,0 +1,176 @@
+/*
+* @Author: 
+* @Date:   2017-09-13 22:36:25
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-09-15 00:39:48
+*/
+/* 头部开始 */
+@font-face {
+  font-family: 'iconfont';  /* project id 401031 */
+  src: url('http://at.alicdn.com/t/font_401031_5t6ju9044kfkcsor.eot');
+  src: url('http://at.alicdn.com/t/font_401031_5t6ju9044kfkcsor.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_401031_5t6ju9044kfkcsor.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_401031_5t6ju9044kfkcsor.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_401031_5t6ju9044kfkcsor.svg#iconfont') format('svg');
+}
+.iconfont {
+    font-family:"iconfont" !important;
+    font-size:16px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+header{
+	width: 100%;
+	height: 0.66rem;
+	background-color: skyblue;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+.head{
+	width: 100%;
+	margin-top: .3rem;
+	font-size: .24rem;
+	float: left;
+	display: block;
+	line-height: .33rem;
+	color: #fff;
+}
+.head-top{
+	height: .24rem;
+	line-height: .24rem;
+	text-align: center;
+}
+
+.yonghudenglu i{
+	float: left;
+}
+.yonghudenglu span{
+	float: right;
+}
+/* 头部结束 */
+
+/* 内容开始 */
+main{
+	width: 100%;
+	background-color: #f8f8f8;
+	margin-bottom: .5rem;
+	margin-top: .66rem;
+}
+.dianpu{
+	padding: .3rem .2rem .3rem .3rem;
+    overflow: hidden;
+    border-bottom: 1px solid rgba(51,51,51,.2);
+}
+.duihao{
+	float: left;
+	width: .44rem;
+    margin-right: .2rem;
+    overflow: hidden;
+}
+.duihao i{
+	width: .44rem;
+    margin-right: .2rem;
+    line-height: .34rem;
+    float: left;
+}
+.dianpu-ming{
+	float: left;
+	font-size: .14rem;
+	line-height: .34rem;
+}
+.dianpu-zongjiage{
+	float: right;
+	font-size: .14rem;
+	line-height: .34rem;
+}
+.shangping{
+    width: 5.8rem;
+    margin-left: .3rem;
+    padding: .3rem;
+    padding-left: 0;
+    overflow: hidden;
+    border-bottom: 1px solid rgba(51,51,51,.2);
+    float: left;
+}
+.duihao1 i{
+	float: left;
+	font-size: .14rem;
+	line-height: .60rem;
+	margin-right: .2rem;
+}
+.shangping-img{
+	float: left;
+    margin-right: .2rem;
+    width: .6rem;
+    height: .6rem;
+    overflow: hidden;
+}
+.shangping-img img{
+	float: left;
+}
+
+.shangping-wenzi{
+	float: left;
+}
+.shangping-wenzi p{
+	width: 2.7rem;
+    height: .26rem;
+    overflow: hidden;
+    font-size: .13rem;
+    line-height: .28rem;
+}
+.shangp-jiage{
+	float: right;
+	width: 2.7rem;
+    height: .26rem;
+    overflow: hidden;
+    font-size: .13rem;
+    line-height: .28rem;
+    margin-right: .1rem;
+}
+/* 内容结束 */
+
+/* 底部开始 */
+
+footer{
+	width: 100%;
+	background-color: #fafafa;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	height: .5rem;
+	border-top: 1px solid #e5e5e5;
+	overflow: hidden;
+}
+.dibu-daohang{
+	width: 25%;
+	float: left;
+	height: .5rem;
+	display: block;
+}
+.dibu-daohang .dibu-tubiao{
+	float: left;
+	margin:.04rem .37417rem;
+}
+.dibu-daohang .dibu-tubiao i{
+	float: left;
+	font-size: .19rem;
+	color: #666;
+}
+.dibu-daohang .dibu-tubiao1 i{
+	color: skyblue;
+}
+.dibu-wenzi{
+	font-size: 0.125rem;
+	float: left;
+	width: 100%;
+	text-align: center;
+	color: #666;
+}
+.dibu-wenzi1{
+	color: skyblue;
+}

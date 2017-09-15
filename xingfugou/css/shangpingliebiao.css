@@ -1,0 +1,80 @@
+/*
+* @Author: 
+* @Date:   2017-09-14 09:27:51
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-09-14 23:56:45
+*/
+/* 头部开始 */
+@font-face {
+  font-family: 'iconfont';  /* project id 401031 */
+  src: url('http://at.alicdn.com/t/font_401031_5t6ju9044kfkcsor.eot');
+  src: url('http://at.alicdn.com/t/font_401031_5t6ju9044kfkcsor.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_401031_5t6ju9044kfkcsor.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_401031_5t6ju9044kfkcsor.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_401031_5t6ju9044kfkcsor.svg#iconfont') format('svg');
+}
+.iconfont {
+    font-family:"iconfont" !important;
+    font-size:16px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+header{
+	width: 100%;
+	height: 0.50rem;
+	background-color: skyblue;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+.head-top{
+	width: 100%;
+}
+.head-box{
+	width: 33.3333%;
+	height: .5rem;
+	line-height: .5rem;
+	font-size: 0.14rem;
+    text-align: center;
+    background: white;
+    float: left;
+}
+.head-box1{
+	color:skyblue;
+}
+
+/* 内容开始 */
+main{
+	width: 100%;
+	background-color: #f8f8f8;
+	margin-bottom: .5rem;
+	margin-top: .66rem;
+}
+.shangpin{
+	width: 1.70rem;
+	float: left;
+	margin-left: .12rem;
+}
+
+.img p{
+    font-size: 0.12rem;
+    line-height: .13rem;
+    text-align: center;
+}
+.p2{
+	font-size: .16rem;
+	color: skyblue;
+	margin-top: .04rem;
+}
+.img span{
+	width: 100%;
+	font-size: 0.16rem;
+	line-height: .13rem;
+	text-align: center;
+}
+
+
+/* 内容结束 */

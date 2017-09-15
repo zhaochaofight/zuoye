@@ -1,0 +1,170 @@
+/*
+* @Author: 
+* @Date:   2017-09-13 09:12:21
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-09-15 01:02:34
+*/
+/* 头部开始 */
+@font-face {
+  font-family: 'iconfont';  /* project id 401031 */
+  src: url('http://at.alicdn.com/t/font_401031_dzjp7z58mmx9lik9.eot');
+  src: url('http://at.alicdn.com/t/font_401031_dzjp7z58mmx9lik9.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_401031_dzjp7z58mmx9lik9.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_401031_dzjp7z58mmx9lik9.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_401031_dzjp7z58mmx9lik9.svg#iconfont') format('svg');
+}
+.iconfont {
+    font-family:"iconfont" !important;
+    font-size:16px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+header{
+	width: 100%;
+	height: 0.66rem;
+	background-color: skyblue;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+.head{
+	width: 100%;
+	margin-top: .3rem;
+	font-size: .24rem;
+	float: left;
+	display: block;
+	line-height: .33rem;
+	color: #fff;
+}
+.head-top{
+	height: .24rem;
+	line-height: .24rem;
+	text-align: center;
+}
+/* 头部结束 */
+
+/* 内容开始 */
+main{
+	width: 100%;
+	background-color: #f8f8f8;
+	margin-bottom: .5rem;
+	margin-top: .66rem;
+}
+.touxiang-beijing{
+	width: 100%;
+    padding-top: .3rem;
+    font-size: .3rem;
+    text-align: center;
+    line-height: .36rem;
+    overflow: hidden;
+}
+.touxiang-img{
+	width: .9rem;
+    height: .9rem;
+    border-radius: 50%;
+    background-color: yellowgreen;
+    margin:  0 auto;
+}
+.guanli{
+	float: left;
+    width: 25%;
+    color: black;
+    font-size: .12rem;
+    padding-left: 10%;
+    padding: .24rem 0;
+}
+.huowu{
+	width: 100%;
+    border-top: .16rem solid #f4f4f4;
+    padding: .22rem 0;
+    overflow: hidden;
+}
+.huowu-box{
+	width: 20%;
+    float: left;
+    text-align: center;
+    font-size:.12rem;
+}
+.liuxdp{
+	margin: 0 .2rem;
+    font-size: .13rem;
+    position: relative;
+    line-height: .4rem;
+    color: #666;
+    border-top: .16rem solid #f4f4f4;
+}
+.dibu-iimg{
+	position: relative;
+	margin: auto .1rem;
+}
+.dibu-iimg span{
+	font-size: .17rem;
+	text-align: center;
+}
+.zuoimg{
+	background-color: yellowgreen;
+	position: absolute;
+    left: 0;
+    top: 0;
+	width: 1.7rem;
+	height: 2.55rem;
+}
+.youimg{
+	background-color: yellowgreen;
+	position: absolute;
+    right:  0;
+    top: 0;
+	width: 1.7rem;
+	height: 2.55rem;
+}
+
+
+
+/* 内容结束 */
+
+
+
+
+/* 底部开始 */
+
+footer{
+	width: 100%;
+	background-color: #fafafa;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	height: .5rem;
+	border-top: 1px solid #e5e5e5;
+	overflow: hidden;
+}
+.dibu-daohang{
+	width: 25%;
+	float: left;
+	height: .5rem;
+	display: block;
+}
+.dibu-daohang .dibu-tubiao{
+	float: left;
+	margin:.04rem .37417rem;
+}
+.dibu-daohang .dibu-tubiao i{
+	float: left;
+	font-size: .19rem;
+	color: #666;
+}
+.dibu-daohang .dibu-tubiao1 i{
+	color: skyblue;
+}
+.dibu-wenzi{
+	font-size: 0.125rem;
+	float: left;
+	width: 100%;
+	text-align: center;
+	color: #666;
+}
+.dibu-wenzi1{
+	color: skyblue;
+}

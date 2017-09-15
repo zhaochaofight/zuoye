@@ -1,0 +1,181 @@
+
+@font-face {
+  font-family: 'iconfont';  /* project id 401031 */
+  src: url('http://at.alicdn.com/t/font_401031_dzjp7z58mmx9lik9.eot');
+  src: url('http://at.alicdn.com/t/font_401031_dzjp7z58mmx9lik9.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_401031_dzjp7z58mmx9lik9.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_401031_dzjp7z58mmx9lik9.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_401031_dzjp7z58mmx9lik9.svg#iconfont') format('svg');
+}
+.iconfont {
+    font-family:"iconfont" !important;
+    font-size:16px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+/* 头部开始 */
+header{
+	width: 100%;
+	height: 0.66rem;
+	background-color: skyblue;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+}
+.head{
+	width: 100%;
+	margin-top: .3rem;
+	font-size: .24rem;
+	float: left;
+	display: block;
+	line-height: .33rem;
+	color: #fff;
+}
+.head-top{
+	height: .24rem;
+	line-height: .24rem
+}
+.head-img{
+	background: url('../img/左右.png') no-repeat;
+	background-size:.24rem;
+	width: .24rem;
+	height: .24rem;
+	float: left;
+	line-height: .48rem;
+	color:#fff;
+}
+.head-dian{
+	float: right;
+}
+.head-dian li:nth-child(3){
+	width: .07rem;
+	height: .07rem;
+	background-color: #fff;
+	margin-right: .06rem;
+	margin-top: .102rem;
+}
+.head-dian li:nth-child(2){
+	width: .12rem;
+	height: .12rem;
+	background-color: #fff;
+	margin-top: .08rem;
+	margin-right: .06rem;
+}
+.head-dian li:nth-child(1){
+	width: .07rem;
+	height: .07rem;
+	background-color: #fff;
+	margin-right: .15rem;
+	margin-top: .102rem;
+}
+.head-dian li{
+	float: right;
+	border-radius: 50%;
+}
+/* 头部结束 */
+
+/* 内容开始 */
+section{
+	width: 100%;
+	/* background: gold; */
+	margin-bottom: .5rem;
+	margin-top: .66rem;
+	float: left;
+	z-index: 99;
+}
+.neirong-sousuo{
+	width: 100%;
+	height: .66rem;
+	/* background-color: red; */
+	overflow: hidden;
+	border-bottom: 2px #444 solid;
+}
+.neirou-sousuokuang{
+	width: 3.41rem;
+	height: .38rem;
+/* 	background-color: #444; */
+	margin: 0 auto;
+	margin-top: .14rem;
+}
+.neirou-sousuokuang input{
+	width: 3.41rem;
+	height: .38rem;
+	display: block;
+}
+.yifu-beijing{
+	width:25%;
+	height: 1.26rem;
+	border-right: 2px #444 solid;
+	border-bottom: 2px #444 solid;
+	float: left;
+/* 	background-color: yellow; */
+	position: relative;
+	
+}
+.yifu-beijing-img{
+	width: .658rem;
+	height: .822rem;
+/* 	background-color: pink; */
+	margin: 0 auto;
+}
+.yifubeijing-wezi{
+	width: .94rem;
+	height: .24rem;
+	/* background-color: greenyellow; */
+	text-align: center;
+	font-size: .18rem;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+.yifu-beijing1{
+	border-right: 0;
+}
+
+/* 内容结束 */
+
+/* 底部开始 */
+
+footer{
+	width: 100%;
+	background-color: #fafafa;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	height: .5rem;
+	border-top: 1px solid #e5e5e5;
+	overflow: hidden;
+}
+.dibu-daohang{
+	width: 25%;
+	float: left;
+	height: .5rem;
+	display: block;
+}
+.dibu-daohang .dibu-tubiao{
+	float: left;
+	margin:.04rem .37417rem;
+}
+.dibu-daohang .dibu-tubiao i{
+	float: left;
+	font-size: .19rem;
+	color: #666;
+}
+.dibu-daohang .dibu-tubiao1 i{
+	color: skyblue;
+}
+.dibu-wenzi{
+	font-size: 0.125rem;
+	float: left;
+	width: 100%;
+	text-align: center;
+	color: #666;
+}
+.dibu-wenzi1{
+	color: skyblue;
+}

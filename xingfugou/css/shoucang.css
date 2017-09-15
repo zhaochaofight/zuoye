@@ -1,0 +1,95 @@
+/*
+* @Author: 
+* @Date:   2017-09-14 08:44:23
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-09-15 00:10:01
+*/
+/* 头部开始 */
+@font-face {
+  font-family: 'iconfont';  /* project id 401031 */
+  src: url('http://at.alicdn.com/t/font_401031_3x0rdswp8tm1v2t9.eot');
+  src: url('http://at.alicdn.com/t/font_401031_3x0rdswp8tm1v2t9.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_401031_3x0rdswp8tm1v2t9.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_401031_3x0rdswp8tm1v2t9.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_401031_3x0rdswp8tm1v2t9.svg#iconfont') format('svg');
+}
+.iconfont {
+    font-family:"iconfont" !important;
+    font-size:16px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+header{
+	width: 100%;
+	height: 0.66rem;
+	background-color: skyblue;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+}
+.head{
+	width: 100%;
+	margin-top: .3rem;
+	font-size: .24rem;
+	float: left;
+	display: block;
+	line-height: .33rem;
+	color: #fff;
+}
+.head-top{
+	height: .24rem;
+	line-height: .24rem;
+	text-align: center;
+}
+
+.yonghudenglu i{
+	float: left;
+}
+.yonghudenglu span{
+	float: right;
+	margin-right: .2rem;
+}
+/* 头部结束 */
+main{
+	width: 100%;
+	background-color: #fff;
+	margin-top: .66rem;
+	z-index: 99;
+}
+.baobei{
+	width: 100%;
+	text-align: center;
+	position: relative;
+}
+.baobei-img{
+	width: 1.525rem;
+	top: 15px;
+    left: 6px;
+    position: absolute;
+    font-size: .12rem;
+    line-height: 1;
+    float: left;
+}
+.baobei-img1{
+	float: left;
+	width: 1.525rem;
+	font-size: .12rem;
+    line-height: 1;
+    margin-top: .30rem;
+    margin-left: .23rem;
+}
+.jiage{
+	width: 100%;
+}
+.tishi{
+	width: 100%;
+	font-size: .12rem;
+	text-align: center;
+	color: #e5e5e5;
+	float: left;
+	margin-top: .2rem;
+}

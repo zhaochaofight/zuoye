@@ -1,0 +1,88 @@
+/*
+* @Author: 
+* @Date:   2017-09-14 10:55:13
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-09-15 00:16:42
+*/
+@font-face {
+  font-family: 'iconfont';  /* project id 401031 */
+  src: url('http://at.alicdn.com/t/font_401031_3x0rdswp8tm1v2t9.eot');
+  src: url('http://at.alicdn.com/t/font_401031_3x0rdswp8tm1v2t9.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_401031_3x0rdswp8tm1v2t9.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_401031_3x0rdswp8tm1v2t9.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_401031_3x0rdswp8tm1v2t9.svg#iconfont') format('svg');
+}
+.iconfont {
+    font-family:"iconfont" !important;
+    font-size:16px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+header{
+	width: 100%;
+	height: .66rem;
+	background-color: skyblue;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+}
+.head-top{
+	width: 100%;
+	font-size: .18rem;
+	text-align: center;
+	line-height: .66rem;
+}
+.head-top i:nth-child(1){
+	float: left;
+	margin-left: .04rem;
+}
+.head-top i:nth-child(2){
+	float: right;
+	margin-right: .04rem;
+}
+
+/* 内容开始 */
+main{
+	width: 100%;
+	z-index: 99;
+	margin-top: .66rem;
+
+}
+.shezhi-beijin{
+	width: 100%;
+	padding-left: 10%;
+}
+.shezhi-box{
+	font-size: .18rem;
+	width: 100%;
+	float: left;
+	border-bottom: 1px #e5e5e5 solid;
+	margin-top: .08rem;
+}
+.shezhi-box i{
+	float: right;
+	margin-right: .06rem;
+}
+.zhanghu-tuichu{
+	width: 100%;
+	padding: 18px 0;
+	background-color: #f8f8f8;
+	float: left;
+}
+.tuichu-box{
+	width: 25%;
+	border-right: 1px #848689 solid;
+	font-size: .12rem;
+	float: left;
+	text-align: center;
+}
+.tuichu-box1{
+	border-right: 0;
+}
+
+
+/* 内容结束 */
